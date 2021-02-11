@@ -1,12 +1,12 @@
 function rollDice() {
   var randomNumber1;
   randomNumber1 = Math.floor(Math.random() * 6) + 1;
-  var randomImgsrc1 = "images/dice" + randomNumber1 + ".png";
+  var randomImgsrc1 = "dice" + randomNumber1 + ".png";
   document.querySelector(".img1").setAttribute("src", randomImgsrc1);
 
   var randomNumber2;
   randomNumber2 = Math.floor(Math.random() * 6) + 1;
-  var randomImgsrc2 = "images/dice" + randomNumber2 + ".png";
+  var randomImgsrc2 = "dice" + randomNumber2 + ".png";
   document.querySelector(".img2").setAttribute("src", randomImgsrc2);
   condition();
 
